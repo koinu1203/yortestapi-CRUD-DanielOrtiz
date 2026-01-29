@@ -36,7 +36,6 @@ const loadPosts = async () => {
 
 onMounted(loadPosts)
 
-const totalPosts = computed(() => posts.value.length)
 const searchQuery = ref('')
 const filteredPosts = computed(() => {
   const query = searchQuery.value.trim().toLowerCase()
