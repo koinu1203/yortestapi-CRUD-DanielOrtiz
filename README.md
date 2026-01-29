@@ -21,6 +21,10 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+### Environment Variables
+
+Create a .env file before running the project. You can copy env-example as a base and update the values as needed.
+
 ```sh
 npm install
 ```
